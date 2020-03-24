@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <section class="container flexbox">
+        <div class="game-board" id="game-board">
+
+        </div>
+        <div class="players">
+            <div>
+                <h1>Poker Express</h1>
+            </div>
+            <input type="text" id="input" style="display: block;" onfocus="funcs.reSort()" placeholder="Enter Your Name">
+            <button onclick="funcs.addPlayer()" id="add-btn" style="display: block;">Add Player</button>
+            <div class="players-score" id="players-score">
+                <!-- <div class="clear"></div> -->
+            </div>
+            <div class="start">
+                <button class="start-btn" id="start-btn" onclick="funcs.startGame()" style="display: none;">START GAME</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

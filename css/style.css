@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Sansita&display=swap');
+
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    background-color: #ddff00;
+}
+
+.container{
+    width: 1250px;
+    margin: auto;
+}
+
+.flexbox{
+    display: flex;
+}
+
+.game-board{
+    width: 59.5%;
+    height: 720px;
+    background-color: #009100;
+    border: 5px solid black;
+    margin-right: 0.5%;
+    padding: 10px;
+}
+
+.player-table{
+    color: #fff;
+    border: 2px solid #ffc667;;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.player-table h2{
+    margin:7px 0 5px;
+}
+
+.player-cards{
+    padding: 0 15px 5px;
+    overflow: auto;
+}
+
+.player-table img{
+    border-radius: 5px;
+    float: left;
+    margin-right: 15.8px;
+}
+
+.player-table img:nth-child(5){
+    margin-right: 0;
+}
+
+.players{
+    text-align: center;
+    width: 40%;
+    height: 720px;
+    background-color: #000;
+    padding: 10px;
+    border: 5px solid #009100;
+}
+
+h1{
+    font-size: 70px;
+    color: rgb(255, 166, 0);
+    margin: 10px 0;
+}
+
+.players input, .players > button{
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: #feef6a;
+    border-radius: 5px;
+    border-color: #f8d293;
+}
+
+.players-score{
+    margin: 10px 0;
+    overflow: auto;
+}
+
+.player{
+    width: 31.9%;
+    height: 200px;
+    margin-right: 9px;
+    float: left;
+    background-color: #ffa000;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 6px 1px #130f00;
+}
+
+.players-score > div:nth-child(3){
+    margin-right: 0;
+}
+
+.player p:first-child{
+    color: #000;
+    font-size: 130px;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+    line-height: 1em;
+}
+
+.player p:last-child{
+    color: #000;
+    font: 700 25px/1.6em Arial;
+    margin: auto;
+    margin-top: 22px;
+    width: 88%;
+    border-radius: 8px;
+    box-shadow: inset 0px 0px 14px 0px #ed8100;
+}
+
+.clear{
+    clear: both;
+}
+
+.start-btn{
+    width: 100%;
+    font-size: 40px;
+    padding: 10px;
+    background-color: #feef6a;
+    color: #000;
+    font-weight: 600;
+    border-radius: 5px;
+    border-color: #f8d293;
+}
+
+.start-btn:hover{
+    background-color: #000;
+    color: #feef6a;
+    border-color: rgb(255, 166, 0);
+}
